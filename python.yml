@@ -1,11 +1,10 @@
 apiVersion: v1
 kind: Pod
-metadata: 
+metadata:
   name: python
-Spec:
+spec:
   containers:
-  - name: python
+  - name: pythoncontainer
     image: my-python-image
     ports:
     - containerPort: 80
-      
