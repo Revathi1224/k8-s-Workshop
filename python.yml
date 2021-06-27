@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: python
+  Spec:
+    containers:
+    - name: python
+      image: my-python-image
+      
