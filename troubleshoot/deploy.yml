@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - image: redis
-        imagePullPolicy: never
+        imagePullPolicy: "never"
         name: redis
         ports:
         - containerPort: 7000
