@@ -29,5 +29,5 @@ spec:
         ports:
         - containerPort: 7000
           protocol: TCP
-      progressDeadlineSeconds: 600
-      revisionHistoryLimit: 10
+    progressDeadlineSeconds: 600
+    revisionHistoryLimit: 10
